@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "your-extension-name",
+  "version": "1.0.0",
+  "description": "拡張機能の説明文",
+  "action": {
+    "default_popup": "index.html"
+  }
+}
