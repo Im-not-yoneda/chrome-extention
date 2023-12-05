@@ -3,7 +3,10 @@
   "name": "英語学習",
   "version": "1.0.0",
   "description": "閲覧しているWebサイトを翻訳し、ランダムな英文をディクテーション形式で表示します。",
-  "action": {
-    "default_popup": "index.html"
-  }
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
 }
